@@ -34,7 +34,15 @@ The framework is developed using:
 
 🚧 **Research in progress**
 
-This repository currently serves as a placeholder for the SConvLS research implementation. Source code, configuration files, documentation, and reproducibility resources will be added as they become available for public release.
+The interactive saved-scenario dashboard is available in the `dashboard/` folder. Training code, configuration files and further reproducibility resources will be added as they become available for public release.
+
+## Interactive Dashboard
+
+**[Open the public SConvLS dashboard](https://mazibahri.github.io/PIMEX-SConvLS/dashboard/)**
+
+Explore 30 final-test excavation scenarios, move through the construction stages and select a surface node to inspect its five-step settlement predictions, FLAC3D reference, nominal 95% pointwise bands and transverse/longitudinal profiles. The interface includes schematic 3D twin-tunnel geometry, illustrative EPB movement and light/dark themes.
+
+This version displays precomputed results. It does not run FLAC3D or perform new model inference; the displayed scenario parameters are read-only. Prediction intervals describe surrogate errors relative to FLAC3D, not engineering safety limits.
 
 ## Project and Funding
 
